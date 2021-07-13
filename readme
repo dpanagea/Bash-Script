@@ -1,6 +1,4 @@
 PROJECT 2 - System's Programming
-Theodora Panagea
-11115201400135 
 
 Bashscript runs like this: ./create_infiles.sh inputFile input_dir numFilesPerDirectory
 -Firstly it checks if the number given is correct. 
