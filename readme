@@ -1,13 +1,11 @@
-PROJECT 2
-Θεοδώρα Παναγέα
-1115201400135
-
-Έχει υλοποιηθεί μόνο το script.
-
---------
-In case greek letters don't work...
---------
+PROJECT 2 - System's Programming
 Theodora Panagea
 11115201400135 
 
-Only the bash script has been implemented. 
+Bashscript runs like this: ./create_infiles.sh inputFile input_dir numFilesPerDirectory
+-Firstly it checks if the number given is correct. 
+-It creates a folder with name input_dir. If the folder already exists, then it prints an error message and it exits. 
+-For every different country found in inputFile, it creates a subdirectory in input_dir, with the country's name.
+- In each subdirectory it creates n files (n = numFilesPerDirectory), in the format of 'country-n.txt'. 
+-While reading inputFile, it will locate all the lines that refer to the certain country, and will copy them to the aforementioned files, 
+using round-robin.
